@@ -38,6 +38,13 @@ h1 {
 }
 
 /*About Me Page*/
+
+.header {
+  background-image: url("images/header-background.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 .carousel-item {
   width: 100%; /*width you want*/
   height: 400px; /*height you want*/
@@ -172,5 +179,9 @@ h1 {
 
   .description p {
     font-size: 1.3rem;
+  }
+
+  .title {
+    font-size: 3rem;
   }
 }
