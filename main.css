@@ -28,7 +28,30 @@ body {
     justify-content: flex-end;
   }
 
+  .carousel-item{
+    width: 100%; /*width you want*/
+    height: 400px; /*height you want*/
+    overflow: hidden;
+  }
+  .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
+  .title {
+    text-align: center;
+    color: #6ab446;
+    top: 18%;
+  }
+
+  .description4 {
+      left: 0;
+      margin: 15px;
+      padding: 0 15px;
+      text-align: left;
+      font-size: large;
+  }
   
 	ol {
 		list-style: decimal;
@@ -217,7 +240,6 @@ body {
 
   .description {
     left: 50%;
-    position: absolute;
     top: 58%;
     transform: translate(-50%, -55%);
     text-align: center;
@@ -295,26 +317,6 @@ body {
     background:#fff;
     color:#000;
   }
-  
-
-  .description3 {
-    left: 20%;
-    position: absolute;
-    top: 58%;
-    transform: translate(-50%, -55%);
-    text-align: center;
-  }
-
-  .description4 {
-    left: 60%;
-    position: absolute;
-    top: 58%;
-    transform: translate(-50%, -55%);
-    text-align: left;
-    color:white;
-    font-size: x-large;
-    line-height: 1.5;
-  }
 
   .description5 {
     left: 50%;
@@ -376,8 +378,7 @@ body {
     margin-bottom: 16px;
   }
 
-  .features .form-control,
-.features input {
+  .features .form-control, .features input {
     border-radius: 0;
 }
 
@@ -458,45 +459,14 @@ h1 {
       text-align: center;
 
     }
-
-    .carousel{
-      background: #2f4357;
-      margin-top: 20px;
-      top: 5%;
+  
+    .description7 {
+      left: 50%;
       position: absolute;
-  }
-    .carousel-item{
+      top: 84%;
+      transform: translate(-50%, -55%);
       text-align: center;
-      min-height: 240px; /* Prevent carousel from being distorted if for some reason image doesn't load */
-  }
-  
-  .description3 {
-    left: 0;
-    padding: 0 15px;
-    position: absolute;
-    top: 15%;
-    transform: none;
-    text-align: center;
-  }
-
-    
-  .description4 {
-    left: 0;
-    padding: 0 15px;
-    position: absolute;
-    top: 73%;
-    transform: none;
-    text-align: left;
-    font-size: medium;
-  }
-  
-  .description7 {
-    left: 50%;
-    position: absolute;
-    top: 84%;
-    transform: translate(-50%, -55%);
-    text-align: center;
-  }
+    }
   
 
   }
