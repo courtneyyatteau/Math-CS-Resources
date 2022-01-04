@@ -21,7 +21,8 @@
     ></script>
   </head>
 
-  <body>
+  <body class="header">
+    <div class="overlay">
     <nav class="navbar navbar-expand-md sticky-top">
       <a class="navbar-brand" href="#">Ms. Mathematist</a>
       <button
@@ -47,28 +48,29 @@
       </div>
     </nav>
 
-    <header class="page-header header container-fluid">
-      <div class="overlay"></div>
-    </header>
     
-    <div class="container mb-4">
+    
+    <div class="container mb-5 mt-5">
       <div class="container description">
         <div class="row">
           <h1>Welcome Mathematics and Computer Science Teachers!</h1>
-          <p>
+          <h3>
             You've come to the right place for lessons, activities, games,
             quizzes, and more for high school level mathematics and computer
             science courses.
-          </p>
+          </h3>
           </div>
-          <a href="resources.html">
-            <button class="btn btn-outline-secondary btn-lg">
-              Resources here!
-            </button>
-          </a>
+          <div class="d-flex justify-content-center">
+            <a href="resources.html">
+              <button class="btn btn-outline-secondary btn-lg">
+                Resources here!
+              </button>
+            </a>
+          </div>
       </div>
     </div>
-      <h3 class="feature-title mt-4">Contact Me!</h3>
+    <div class="container mb-4">
+      <h3 class="contact-title mt-4">Contact Me!</h3>
       <div class="form-group">
         <input type="text" class="form-control" placeholder="Name" name="" />
       </div>
@@ -93,6 +95,7 @@
         value="Send"
         name=""
       />
+    </div>
 
     <footer class="page-footer">
       <div class="container">
