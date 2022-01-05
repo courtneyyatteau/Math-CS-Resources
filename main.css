@@ -129,12 +129,12 @@ h1 {
   display: flex;
 }
 
-.card-img-top {
-  margin-bottom: 15px;
-}
-
 .card {
   margin: 4px 0;
+}
+
+.card .img-fluid {
+  margin-bottom: 5px;
 }
 
 .resources button {
