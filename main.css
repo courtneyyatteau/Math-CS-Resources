@@ -37,13 +37,49 @@ h1 {
   margin-bottom: 1em;
 }
 
-/*About Me Page*/
-.header {
-  background-image: url("images/header-background.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
+footer {
+  margin-top: 8%;
 }
+
+.foot:hover {
+  border: none;
+}
+
+.footerLinks {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.footLink {
+  color: #6ab446;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.footLink:hover {
+  color: rgb(123, 123, 182);
+  border-left: none;
+}
+
+.foot {
+  text-align: center;
+  margin: 3% 0;
+}
+
+.foot a {
+  text-decoration: none;
+  color: #6ab446;
+}
+
+.foot a:hover {
+  color: rgb(123, 123, 182);
+  border-left: none;
+}
+
+
+
+
+/*About Me Page*/
 .carousel-item {
   width: 100%; /*width you want*/
   height: 400px; /*height you want*/
@@ -83,7 +119,7 @@ h1 {
   min-width: 100%;
   left: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(36, 35, 35, 0.7);
 }
 
 .contact-title {
